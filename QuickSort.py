@@ -6,26 +6,27 @@ test = [3,7,8,5,2,1,9,5,4]
 
 class QuickSort():
     def __init__(self):
-        pass
+        moves = []
     def QS(l):
         pivot = len(l)-1
         lo = 0
         if(lo == pivot or pivot < 0):
             return l
         else:
-            lo = findGreaterValue(lo,pivot,l)
+            lo = QuickSort.findGreaterValue(lo,pivot,l)
             while(pivot != lo):
                 Sort.switchIndices(pivot-1,lo,l)
-                lo = findGreaterValue(lo,pivot,l)
+                lo = QuickSort.findGreaterValue(lo,pivot,l)
                 Sort.switchIndices(pivot,pivot-1,l)
                 pivot-=1
             temp = []
             temp.append(l[pivot])
-            pList = partitionList(l,pivot)
-            return (QS(pList[0]) + temp + QS(pList[1]))
+            pList = QuickSort.partitionList(l,pivot)
+            return (QuickSort.QS(pList[0]) + temp + QuickSort.QS(pList[1]))
+        
     def printCurrentList(l):
         print ("Current List: " + str(l))
-
+    
     def partitionList(l, pivot):
         l1 = l[:pivot]
         l2 = l[pivot+1:]
@@ -39,7 +40,7 @@ class QuickSort():
             a+=1
         return a
 
-
+'''
 def printCurrentList(l):
     print ("Current List: " + str(l))
 
@@ -72,7 +73,7 @@ def QS(l):
         temp.append(l[pivot])
         pList = partitionList(l,pivot)
         return (QS(pList[0]) + temp + QS(pList[1]))
-                
+'''                
 
 
 
@@ -83,7 +84,7 @@ t1=[3,1,2,1]
 t2=[9,8]
 
 #Evaluate the given list using QuickSort
-val = QS(test)
+val = QuickSort.QS(test)
 print (str(val))
 
 

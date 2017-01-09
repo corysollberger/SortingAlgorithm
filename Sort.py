@@ -14,6 +14,12 @@ class Sort():
     def printList(l):
         print ("L = " + str(l))
 
+    def genRandList():
+        l = []
+        for x in range(240):
+            l.append(x*1.5)
+        Sort.randomizeList(l)
+        return l
     def randomizeList(l):
         for x in range(0,len(l)):
             index1 = randint(0,len(l)-1)
