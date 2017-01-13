@@ -25,5 +25,6 @@ Currently being developed, these features need to be implemented
 - GUI for User Selection, I've decided to go with Tkinter as my GUI
 - Tkinter used instead of MatPlotLib, although that functionality might be implemented in the future.
 - Algorithms not implemented
+- Use git.ignore to prevent unnecessary files and libraries from being pushed to the repository
 
 A little project to get better at python programming using python libraries
