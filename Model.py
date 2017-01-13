@@ -17,9 +17,10 @@ class Model(object):
     def getFrameList(self):
         return self.frameList
 
+'''
 m = Model()
 print (m.list)
 m.insertionSort()
 fl = m.getFrameList()
 print (fl[1])
-
+'''
