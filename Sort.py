@@ -12,7 +12,8 @@ class Sort():
         return l
 
     def printList(l):
-        print ("L = " + str(l))
+        #print ("L = " + str(l))
+        pass
 
     def genRandList():
         l = []

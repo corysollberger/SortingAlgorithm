@@ -76,7 +76,7 @@ def QS(l):
 '''                
 
 
-
+'''
 #Test lists to be quicksorted
 t = [3,7,8,5,2,1,9,5,4]
 test = [5,3,1,4,2,1,90,56,4,14,99,304,289,105]
@@ -86,7 +86,7 @@ t2=[9,8]
 #Evaluate the given list using QuickSort
 val = QuickSort.QS(test)
 print (str(val))
-
+'''
 
 
 

@@ -1,6 +1,6 @@
 A Python Program -- Created by: Cory Sollberger
 
-The program is intended to produce a GUI that a user will use to produce a Graphic depicting the resulting
+The program is intended to produce a GUI that a user will interact with to visualize
 data sort through various implementations of sorting algorithms.
 
 These algorithms include:
@@ -22,8 +22,8 @@ Currently Implemented Algorithms:
 - Quicksort
 
 Currently being developed, these features need to be implemented
-- GUI for User Selection
-- Exporting of data using Matplotlib
+- GUI for User Selection, I've decided to go with Tkinter as my GUI
+- Tkinter used instead of MatPlotLib, although that functionality might be implemented in the future.
 - Algorithms not implemented
 
 A little project to get better at python programming using python libraries
