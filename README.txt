@@ -9,7 +9,6 @@ These algorithms include:
 - Timsort
 - Heapsort
 - Bubble Sort
-- Insertion Sort
 - Selection Sort
 - Tree Sort
 - Shell Sort
@@ -20,6 +19,7 @@ These algorithms include:
 
 Currently Implemented Algorithms:
 - Quicksort
+- Insertion Sort
 
 Currently being developed, these features need to be implemented
 - GUI for User Selection, I've decided to go with Tkinter as my GUI
